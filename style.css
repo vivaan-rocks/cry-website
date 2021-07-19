@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.sideNav{
+    width: 450px;
+    height: 100vh;
+    position: fixed;
+    right: 1050px;
+    top: 0;
+    background: #1921C7;
+    z-index: 2;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logofirst{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.h3sideNav{
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+hr{
+    margin-top: 10px;
+}
+nav ul li{
+    list-style: none;
+    margin: 30px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 80px;
+    padding-left: 10px;
+    border-radius: 30px;
+    background: transparent;
+}
+nav ul li a:hover{
+    background: #1c3263;
+}
+nav ul li a .fa{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.powered{
+    font-size: 14px;
+    margin-top: 20px;
+}
+span{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+.pro{
+    background: #2878F0;
+    padding-right: 120px;
+}
+.op{
+    padding-right: 140px;
+}
+.logout{
+    padding-right: 120px;
+}
